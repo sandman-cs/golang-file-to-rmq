@@ -25,7 +25,6 @@ func main() {
 
 		sendMessage("Closing input threads...")
 		time.Sleep(time.Second * 5)
-		//Add Code here to wait for email in buffers to be sent before finishing close.
 		os.Exit(0)
 	}()
 
